@@ -9,7 +9,7 @@ export default class Navbar extends Component {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <a className="navbar-brand offset-sm-1" href="/">
-              Newz_X
+              Newz_Cafe
             </a>
             <button
               className="navbar-toggler"
@@ -37,6 +37,21 @@ export default class Navbar extends Component {
                     About
                   </a>
                 </li>
+                <li className="nav-item"><a className="nav-link" href="/">business</a></li>
+                <li className="nav-item"><a className="nav-link" href="/">entertainment</a></li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">general</a></li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">health</a></li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">science</a></li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">sports</a></li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/">technology.</a></li>
+
+
+
                 <li className="nav-item">
                   <a className="nav-link" href="/">
                     Contact Us
