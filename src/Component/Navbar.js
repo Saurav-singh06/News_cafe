@@ -23,40 +23,24 @@ export default class Navbar extends Component {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse offset-8"
+              className="collapse navbar-collapse offset-3"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-3">
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="/">
                     Home
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    About
-                  </a>
-                </li>
+                <li className="nav-item"><a className="nav-link" href="/">About</a></li>
                 <li className="nav-item"><a className="nav-link" href="/">business</a></li>
                 <li className="nav-item"><a className="nav-link" href="/">entertainment</a></li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">general</a></li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">health</a></li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">science</a></li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">sports</a></li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/">technology.</a></li>
-
-
-
-                <li className="nav-item">
-                  <a className="nav-link" href="/">
-                    Contact Us
-                  </a>
-                </li>
+                <li className="nav-item"><a className="nav-link" href="/">General</a></li>
+                <li className="nav-item"><a className="nav-link" href="/">Health</a></li>
+                <li className="nav-item"><a className="nav-link" href="/">Science</a></li>
+                <li className="nav-item"><a className="nav-link" href="/">Sports</a></li>
+                <li className="nav-item"><a className="nav-link" href="/">Technology</a></li>
+                <li className="nav-item"><a className="nav-link" href="/">Contact Us </a></li>
               </ul>
             </div>
           </div>
